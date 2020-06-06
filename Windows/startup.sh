@@ -43,4 +43,7 @@ choco install git -y
 echo 'Install Notepad++'
 choco install notepadplusplus -y
 
+echo 'Install Winrar'
+choco install winrar -y
+
 echo 'Fim Instalação'
