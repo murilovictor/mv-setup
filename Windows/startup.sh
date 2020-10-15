@@ -16,6 +16,9 @@ choco install nodejs -y
 echo 'Install Angular CLI'
 npm install -g @angular/cli -y
 
+echo 'Install Windows-build-tools'
+npm install --global windows-build-tools
+
 echo 'Install Maven'
 choco install maven -y
 
