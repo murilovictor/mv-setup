@@ -1,5 +1,5 @@
 sudo apt-get update
-sudo apt-get updrade
+sudo apt-get upgrade
 
 echo 'installing curl' 
 sudo apt install curl -y
@@ -62,7 +62,7 @@ sudo npm install -g @angular/cli -y
 ng --version
 
 echo 'Installing Maven'
-udo apt install maven -y
+sudo apt install maven -y
 mvn --version
 
 echo 'installing slack' 
