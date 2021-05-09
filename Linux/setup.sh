@@ -87,6 +87,15 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 
+echo 'installing intellij'
+sudo snap install intellij-idea-ultimate --classic --edge
+
+echo 'installing webstorm'
+sudo snap install webstorm --classic --edge
+
+echo 'installing datagrip'
+sudo snap install datagrip --classic --edge
+
 echo 'installing dbeaver'
 wget -c https://dbeaver.io/files/6.0.0/dbeaver-ce_6.0.0_amd64.deb
 sudo dpkg -i dbeaver-ce_6.0.0_amd64.deb
