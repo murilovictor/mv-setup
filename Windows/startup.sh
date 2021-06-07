@@ -37,6 +37,9 @@ choco install webstorm -y
 echo 'Install docker desktop'
 choco install docker-desktop -y
 
+echo 'Install WSL'
+choco install wsl -y
+
 echo 'Install Microsoft Teams'
 choco install microsoft-teams.install -y
 
